@@ -2,6 +2,7 @@ $(function() {
     $(document).scroll(function() {
         //  Get y scroll position
         var yPos = $(this).scrollTop();
+        //  Increase or decrease y scroll variable to adjust functionality
         yPos += 150;
         // Get the x and y pixel position of each div.
         var pPos_1 = $('#about').offset();
@@ -9,7 +10,7 @@ $(function() {
         var pPos_3 = $('#blog').offset();
         var pPos_4 = $('#contact').offset();
 
-        //  Use the top(x) pixel value of divs and compare them to scroll position
+        //  Use the top(y) pixel value of divs and compare them to scroll position
         if ((pPos_1.top < yPos) && (pPos_2.top > yPos)) {
             $('#about-link').addClass('active');
         } else {
