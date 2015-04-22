@@ -5,3 +5,4 @@ This code example is my version of Scrollspy and offers a way to fine tune it's 
 2. Each nav anchor must have an id for the addClass and removeClass to target.
 3. Each section or div must have an jQuery offset() method to find the top and left coordinates to compare to the scrollTop() method.
 4. You must add a comparision statement for each section or div.
+5. Manual fine tune by adding or subtracting from the yPos variable.
