@@ -1,9 +1,10 @@
 .container {
     width: 960px;
-    height: 3000px;
-    margin: 0px auto 20px;
-    padding-top: 150px;
+    margin: 0px auto;
+    padding-top: 50px;
+    margin-top: -10px;
     font-size: 125%;
+    border: 1px solid burlywood;
 }
 
 nav {
@@ -36,17 +37,17 @@ h1 {
 
 h2 {
     color: tan;
+    padding-left: 20px;
 }
 
 div p {
     text-align: justify;
     text-indent: 2em;
     color: gray;
+    padding: 20px;
 }
 footer {
-    position: fixed;
     width: 920px;
-    bottom: 0px;
     background: burlywood;
     padding: 20px;
     color: white;

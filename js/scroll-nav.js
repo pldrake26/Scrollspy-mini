@@ -1,9 +1,11 @@
+/* Scroll-Nav copyright 2015 Phillip L. Drake, MIT License  */
+
 $(function() {
     $(document).scroll(function() {
         //  Get y axis (vertical) scroll position.
         var yPos = $(this).scrollTop();
         //  Increase or decrease the scroll variable (y axis) to fine tune functionality.
-        yPos += 85;
+        yPos += 60;
         // Get the top and left pixel position of each div by getting their offset coordinates.  Must be a offset variable for each section on your webpage.
         var div_1 = $('#about').offset();
         var div_2 = $('#portfolio').offset();
