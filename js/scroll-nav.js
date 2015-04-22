@@ -1,32 +1,32 @@
 $(function() {
     $(document).scroll(function() {
-        //  Get y scroll position
+        //  Get y axis (vertical) scroll position.
         var yPos = $(this).scrollTop();
-        //  Increase or decrease y scroll variable to adjust functionality
-        yPos += 150;
-        // Get the x and y pixel position of each div.
-        var pPos_1 = $('#about').offset();
-        var pPos_2 = $('#portfolio').offset();
-        var pPos_3 = $('#blog').offset();
-        var pPos_4 = $('#contact').offset();
+        //  Increase or decrease the scroll variable (y axis) to fine tune functionality.
+        yPos += 85;
+        // Get the top and left pixel position of each div by getting their offset coordinates.  Must be a offset variable for each section on your webpage.
+        var div_1 = $('#about').offset();
+        var div_2 = $('#portfolio').offset();
+        var div_3 = $('#blog').offset();
+        var div_4 = $('#contact').offset();
 
-        //  Use the top(y) pixel value of divs and compare them to scroll position
-        if ((pPos_1.top < yPos) && (pPos_2.top > yPos)) {
+        //  Use the top property pixel value of each div offset variable and compare them to y axis scroll position variable.
+        if ((div_1.top < yPos) && (div_2.top > yPos)) {
             $('#about-link').addClass('active');
         } else {
             $('#about-link').removeClass('active');
         }
-        if ((pPos_2.top < yPos) && (pPos_3.top > yPos)) {
+        if ((div_2.top < yPos) && (div_3.top > yPos)) {
             $('#portfolio-link').addClass('active');
         } else {
             $('#portfolio-link').removeClass('active');
         }
-        if ((pPos_3.top < yPos) && (pPos_4.top > yPos)) {
+        if ((div_3.top < yPos) && (div_4.top > yPos)) {
             $('#blog-link').addClass('active');
         } else {
             $('#blog-link').removeClass('active');
         }
-        if (pPos_4.top < yPos) {
+        if (div_4.top < yPos) {
             $('#contact-link').addClass('active');
         } else {
             $('#contact-link').removeClass('active');

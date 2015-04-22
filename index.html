@@ -4,50 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Nav active</title>
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-1.11.2.min.js"></script>
-    <style>
-        .container {
-            width: 960px;
-            height: 3000px;
-            margin: 0px auto 20px;
-            padding-top: 150px;
-            font-size: 125%;
-        }
-
-        nav {
-            width: 920px;
-            position: fixed;
-            top: 0;
-            background: burlywood;
-            padding: 20px;
-        }
-
-        a {
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        .active {
-            color: red;
-        }
-
-        div {
-            margin-top: 40px;
-        }
-    </style>
-	
 </head>
 
 <body>
     <div class="container">
         <nav>
-            <a id="about-link" href="#about">Welcome</a>
+            <a id="about-link" href="#about">About me</a>
             <a id="portfolio-link" href="#portfolio">Portfolio</a>
             <a id="blog-link" href="#blog">Blog</a>
             <a id="contact-link" href="#contact">Contact Me</a>
         </nav>
         <div id="about">
+            <h1>My scrollspy example!</h1>
+            <h2>About me:</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec elementum erat, ut consequat lorem. Fusce euismod quis tortor sed convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tincidunt, augue sed efficitur
                 accumsan, leo urna commodo arcu, eu tincidunt sem ante id quam. In hac habitasse platea dictumst. Pellentesque semper orci ut elementum sagittis. Vivamus in efficitur ex. Sed ultrices commodo nisi quis congue. Duis vestibulum sed eros
                 vel iaculis. In eget gravida est. Aliquam facilisis et nibh vitae auctor. Proin a mollis tortor. Aenean porta id lorem a viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at
@@ -66,6 +37,7 @@
         </div>
 
         <div id="portfolio">
+            <h2>My Portfolio</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec elementum erat, ut consequat lorem. Fusce euismod quis tortor sed convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tincidunt, augue sed efficitur
                 accumsan, leo urna commodo arcu, eu tincidunt sem ante id quam. In hac habitasse platea dictumst. Pellentesque semper orci ut elementum sagittis. Vivamus in efficitur ex. Sed ultrices commodo nisi quis congue. Duis vestibulum sed eros
                 vel iaculis. In eget gravida est. Aliquam facilisis et nibh vitae auctor. Proin a mollis tortor. Aenean porta id lorem a viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at
@@ -84,6 +56,7 @@
         </div>
 
         <div id="blog">
+            <h2>My Blog:</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec elementum erat, ut consequat lorem. Fusce euismod quis tortor sed convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tincidunt, augue sed efficitur
                 accumsan, leo urna commodo arcu, eu tincidunt sem ante id quam. In hac habitasse platea dictumst. Pellentesque semper orci ut elementum sagittis. Vivamus in efficitur ex. Sed ultrices commodo nisi quis congue. Duis vestibulum sed eros
                 vel iaculis. In eget gravida est. Aliquam facilisis et nibh vitae auctor. Proin a mollis tortor. Aenean porta id lorem a viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at
@@ -102,6 +75,7 @@
         </div>
 
         <div id="contact">
+            <h2>Contact me:</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec elementum erat, ut consequat lorem. Fusce euismod quis tortor sed convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tincidunt, augue sed efficitur
                 accumsan, leo urna commodo arcu, eu tincidunt sem ante id quam. In hac habitasse platea dictumst. Pellentesque semper orci ut elementum sagittis. Vivamus in efficitur ex. Sed ultrices commodo nisi quis congue. Duis vestibulum sed eros
                 vel iaculis. In eget gravida est. Aliquam facilisis et nibh vitae auctor. Proin a mollis tortor. Aenean porta id lorem a viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at
@@ -118,7 +92,11 @@
                 ac risus non tempus. Etiam egestas neque vel tincidunt tempor. Mauris placerat efficitur augue, a gravida enim placerat nec. Mauris at tempus metus. In semper ipsum nec nibh pretium posuere. Duis fermentum, nisl ac porta iaculis, dui quam
                 aliquam dui, id feugiat libero libero sed nulla. Aliquam erat volutpat.</p>
         </div>
+        <footer>
+            <span>Created by Phillip L. Drake, pldrake26@outlook.com</span>
+        </footer>
     </div>
+
     <script src="js/scroll-nav.js"></script>
 </body>
 

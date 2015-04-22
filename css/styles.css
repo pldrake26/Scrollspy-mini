@@ -1,0 +1,53 @@
+.container {
+    width: 960px;
+    height: 3000px;
+    margin: 0px auto 20px;
+    padding-top: 150px;
+    font-size: 125%;
+}
+
+nav {
+    width: 920px;
+    position: fixed;
+    top: 0;
+    background: burlywood;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.active {
+    color: red;
+}
+
+div {
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    color: tan;
+}
+
+div p {
+    text-align: justify;
+    text-indent: 2em;
+    color: gray;
+}
+footer {
+    position: fixed;
+    width: 920px;
+    bottom: 0px;
+    background: burlywood;
+    padding: 20px;
+    color: white;
+}
