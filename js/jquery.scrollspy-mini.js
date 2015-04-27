@@ -1,4 +1,5 @@
 /* Scroll-Nav copyright 2015 Phillip L. Drake, MIT License  */
+
 (function($) {
     $.fn.scrollspy = function() {
         $(document).scroll(function() {
