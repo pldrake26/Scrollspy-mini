@@ -1,5 +1,7 @@
 # Scrollspy-mini
-This plugin is my version of Scrollspy and offers a way to fine tune it's operation.  http://pldrake26.github.io/Scrollspy-mini/
+This plugin is my version of Scrollspy and offers a way to fine tune it's operation.  
+http://pldrake26.github.io/Scrollspy-mini/
+
 ## Implementation:
 1. jquery.scrollspy-mini.js is commented to allow for easy implementation.
 2. Each nav anchor must have an id for the addClass and removeClass to target.
